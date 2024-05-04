@@ -4,6 +4,8 @@
 ## Project title and brief description
 In this project, we will explore the M5 dataset, which contains historical sales data for various products across different stores. Our goal is to build robust time series forecasting models that take into account both promotional events and potential shortages.
 
+![plot](Figure_Promotion_Shortage_AAA.png)
+
 ### Data Exploration:
 Understand the structure of the M5 dataset.
 Identify relevant features such as sales, promotions, and stock levels.
