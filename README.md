@@ -14,8 +14,6 @@ Consider lagged features (previous sales, stock levels) to capture dependencies.
 ### Forecasting Models:
 Explore various time series forecasting techniques:
 ARIMA (AutoRegressive Integrated Moving Average): A classic method for modeling time series data.
-Prophet: Developed by Facebook, Prophet handles seasonality, holidays, and trend changes.
-LSTM (Long Short-Term Memory): A deep learning approach for sequence prediction.
 Evaluate model performance using appropriate metrics (e.g., Mean Absolute Error, Root Mean Squared Error).
 ### Promotion Impact Analysis:
 Investigate the effect of promotions on sales.
@@ -27,15 +25,14 @@ Develop alerts or early warning systems for inventory management.
 By the end of this project, we aim to create accurate forecasts that account for promotions and potential shortages, helping businesses make informed decisions about inventory management and sales strategies.
 
 ## Installation instructions
-
+R package *forecast*, *smooth*, *m5* is used for producing forecast with ETS, ARIMA, Theta, forecasts with ETS for the weekly and hourly data and downloading m5 dataset.
 ```
 install.packages("forecast")
-install.packages("fable")
-install.packages("tidyverse")
-install.packages("dplyr")
+install.packages("smooth")
+install.packages("m5")
 
 ```
-## Usage instructions (how to run your code)
+## Usage instructions
 
 ## Results and insights
 
